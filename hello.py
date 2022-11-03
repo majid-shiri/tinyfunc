@@ -2,8 +2,8 @@ __author__="Majid shiri"
 
 #function welcome user
 def hello(name):
-    print(f'hello {name},Your Welcome')
+    return (f'hello {name},Your Welcome')
 
-#for RUN TEST
+#For RUN TEST Function
 if __name__ == '__main__':
-    hello(input('Enter your Name:'))
+    print(hello(input('Enter your Name:')))
